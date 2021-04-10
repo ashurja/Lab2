@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 2</title>
+	<link rel="shortcut icon" href="https://developer.mozilla.org/static/img/favicon32.png">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>My 3 Day Journal Entry</h1>
+		</header>
+		<section>
+			<h2>
+				First day
+			</h2>
+			<p>
+				Two days ago I had <strong>several assignments</strong> that are due from the following classes: 
+				<ul>
+					<li>CSE110</li>
+					<li>ECE111</li>
+					<li>EDS136&139</li>
+					<li>CSE101</li>
+				</ul>
+				So I decided to work on the assignents in the following order: 
+				<ol>
+					<li>CSE110</li>
+					<li>ECE111</li>
+					<li>EDS136&139</li>
+					<li>CSE101</li>
+				</ol>
+
+				<p>
+					<span> It took me <b>all day</b> to do it so by the end of the day that's basically how I looked</span>
+				</p>
+				<img width="1024" height="562" src = "https://sandstonehealth.com/wp-content/uploads/fatigue-koala-1080x628.jpg">
+		</section>
+		<br>
+		<hr>
+		<br>
+		<section>
+			<h2>
+				Second day
+			</h2>
+			<p>
+				Second day turned out to be not too bad cause I ended up watching quite a few videos about ballroom dancing because <i>ballroom dancing</i> is <em> really fun</em>.
+			</p>
+			<p>
+				Here is some info and a video of one of the best ballroom dancers in the world. 
+				<details>
+					<summary>Bryan Watson and Carmen Vincelj</summary>
+					<p>
+						<div>
+							<a href="https://en.wikipedia.org/wiki/Bryan_Watson_(dancer)" target="_blank"> WikiPage </a>
+						</div>
+						<div>
+							<a href="https://www.youtube.com/watch?v=6WcY5T9az5g" target="_blank"> Video </a>
+						</div>
+					</p>
+				</details>
+			</p>
+		</section>
+		<br>
+		<hr>
+		<br>
+		<section>
+			<h2>
+				Third Day
+			</h2>
+			<p>
+				Today all I did is just play my favorite guitar songs. Here is a excerpt from one of them:
+				<div>
+					<audio src ="media/jamshed_guitar.m4a" controls>
+					</audio>
+				</div>
+				<br>
+				And watched my presentation from ECE109 class:
+				<br>
+				<div>
+					<video width="320" height="240" controls>
+						<source src="media/TRIM.mp4" type="video/mp4">
+					</video>
+				</div>
+			</p>
+		</section>
+	</main>
+	<br>
+	<hr>
+	<hr>
+	<h3>
+		Links Used
+	</h3>
+	<nav>
+		<div><a href="https://www.youtube.com/">YouTube</a></div>
+		<div><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></div>
+	</nav>
+	<section>
+		<h3>
+			Form to create a journal for yourself. 
+		</h3>
+		<form>
+			<fieldset>
+				<div>
+					<label>
+						Check this box if you are not a robot
+					</label>
+					<input type="checkbox" name="check">
+				</div>
+				<br>
+				<div>
+					<label>FULL NAME</label>
+					<input type="text" name="fullname">
+				</div>
+				<br>
+				<div>
+					<label>How are you feeling today?</label>
+					<input list="feelings" name="feeling">
+					<datalist id = "feelings">
+						<option value="Happy">
+						<option value="Sad">
+						<option value="Okay">
+						<option value="Tired">
+						<option value="Sleepy">
+						<option value="Nervous">
+						<option value="Frustrated">
+						<option value="Angry">
+						<option value="Hopeful">
+					</datalist>
+				</div>
+				<br>
+				<div>
+					<label>Do you feel like writing a journal entry?</label>
+					<select>
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label>Select a date for your journl entry</label>
+					<input type="date" name="journalentry">
+				</div>
+				<br>
+				<div>
+					<label>Write Your Journal Entry</label>
+					<div>
+						<textarea rows="20" cols="100"></textarea>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label>
+						How did you like it?
+					</label>
+						<div>
+							<input type="radio" name="meh">
+							<label for="meh">Meh</label>
+						</div>
+						<div>
+							<input type="radio" name="Alright">
+							<label for="alright">Alright</label>
+						</div>
+						<div>
+							<input type="radio" name="great">
+							<label for="great">Great</label>
+						</div>
+				</div>
+				<br>
+				<button>Submit</button>
+				<br>
+			</fieldset>
+		</form>
+	</section>
+	<br>
+	<footer>
+		<p>Copyright &copy; 2021, My Website</p>
+	</footer>
+</body>
+</html>
